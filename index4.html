@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <h1>4. What are CSS Combinators?
+    </h1>
+    <p>Combinators combine the selectors to provide them a useful relationship and the position of content in the
+        document. This comes in handy when you want to style certain elements all at once rather than styling elements
+        individually. CSS combinator selectors are as follows.
+    </p>
+    <ol>
+        <li>
+            <h1>Descendant Selector (space)</h1>
+        </li>
+        <li>
+            <h1>Child Selector (>)
+            </h1>
+        </li>
+        <li>
+            <h1>Adjacent Sibling Selector (+)
+            </h1>
+        </li>
+        <li>
+            <h1>General Sibling Selector (~)
+            </h1>
+        </li>
+    </ol>
+
+    <div>
+        <h2>Hello World!</h2>
+        <p>I am child paragraph</p>
+        <p>I am child paragraph</p>
+       </div>
+
+
+       <div>
+        <h2>This heading is a direct child of the div tag.</h2>
+        <p>So is this paragraph tag.</p>
+        <button>
+            <p>This paragraph tag is NOT a direct child of the first div</p>
+        </button>
+        <p>This paragraph tag is also a child of the div tag</p>
+    </div>
+
+
+    <div>
+        <h2>This is a H2 tag.</h2>
+        <p>This p tag immediately follows the heading.</p>
+        <button>
+            <p>This p tag is NOT immediately following a H2 tag.</p>
+        </button>
+        <h2>Howdy! This is another H2 tag.</h2>
+        <p>This p tag is after another H2 tag and gets formatted.</p>
+    </div>
+
+
+    <div>
+        <h2>I am heading tag!</h2>
+        <p>I am paragraph tag 1.</p>
+        <button>
+            <p>I am a paragraph tag inside a button!</p>
+        </button>
+        <p>I am paragraph tag 2.</p>
+        <p>I am paragraph tag 3.</p>
+        <h3>I am another heading tag!</h3>
+        <p>I am paragraph tag 4.</p>
+    </div>
+
+
+</body>
+
+</html>
